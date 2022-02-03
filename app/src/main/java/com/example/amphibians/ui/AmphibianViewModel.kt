@@ -21,9 +21,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.amphibians.network.Amphibian
 import com.example.amphibians.network.AmphibianApi
-import com.example.amphibians.network.AmphibianApiService
 import kotlinx.coroutines.launch
-import java.lang.Exception
 
 enum class AmphibianApiStatus {LOADING, ERROR, DONE}
 
